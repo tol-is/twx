@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+
+# Environment Variables
+.env
+.env.development
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
+
+# Build Output
+dist/
+
+# Test Output
+coverage/
+coverage-jest
+coverage-cypress
+reports
+.nyc_output
+
+# Caches
+*.tsbuildinfo
+.eslintcache
+.npm
+
+# Logs
+*.log
+build-storybook.log*
+lerna-debug.log*
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+
+# Applications
+.vscode/*
+!.vscode/*.code-snippets
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+
+# OSs
+.DS_Store
+
+# Miscellaneous
+.netlify
+.vercel
